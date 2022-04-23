@@ -1,7 +1,7 @@
 # StringComparator
 Compare a string with another string and get the result in percent
 [![Downloads](https://img.shields.io/nuget/dt/StringComparator.svg)](https://www.nuget.org/packages/StringComparator/)<br><br><br>
-- 📦 [NuGet](https://www.nuget.org/packages/HG-Finance/): `dotnet add package HG-Finance --version 1.0.0` (**package**)
+- 📦 [NuGet](https://www.nuget.org/packages/StringComparator/): `Install-Package StringComparator -Version 1.0.0` (**package**)
 
 
 ### Usage
