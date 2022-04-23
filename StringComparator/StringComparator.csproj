@@ -7,10 +7,20 @@
     <Authors>"Miguel Oliveira &amp; Paulo HS"</Authors>
     <Company>$"MiguelSoft"</Company>
     <Description>Compare a string with another string and get the result in percent</Description>
+    <PackageIcon>StringComparator.png</PackageIcon>
+    <RepositoryUrl>https://github.com/eimigueloliveir/StringComparator</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/eimigueloliveir/StringComparator</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
     <Content Include="StringComparator.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Documents\MiguelSoft\StringComparator\StringComparator.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
