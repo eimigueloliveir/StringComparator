@@ -5,6 +5,10 @@ VisualStudioVersion = 17.1.32407.343
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringComparator", "StringComparator\StringComparator.csproj", "{AB9881A1-A658-4F72-A809-BCD1A1350956}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{B3127068-1CCF-44FF-871F-5E3360E3DCB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringComparatorExamples", "StringComparatorExamples\StringComparatorExamples.csproj", "{D538607A-649F-4BBA-A6BB-4E4212FF1651}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{AB9881A1-A658-4F72-A809-BCD1A1350956}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB9881A1-A658-4F72-A809-BCD1A1350956}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB9881A1-A658-4F72-A809-BCD1A1350956}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D538607A-649F-4BBA-A6BB-4E4212FF1651}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D538607A-649F-4BBA-A6BB-4E4212FF1651}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D538607A-649F-4BBA-A6BB-4E4212FF1651}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D538607A-649F-4BBA-A6BB-4E4212FF1651}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D538607A-649F-4BBA-A6BB-4E4212FF1651} = {B3127068-1CCF-44FF-871F-5E3360E3DCB6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {358433B9-05EA-4EF7-B99E-C23B1B8E4090}

@@ -4,7 +4,7 @@ namespace StringComparator
 {
     public class Comparator
     {
-        public static decimal compare(string Original, string Target)
+        public static decimal Compare(string Original, string Target)
         {
             char[] OriginalArray = new char[Original.Length];
             char[] TargetArray = new char[Target.Length];
