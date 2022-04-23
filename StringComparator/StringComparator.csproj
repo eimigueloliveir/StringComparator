@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <ApplicationIcon>StringComparator.ico</ApplicationIcon>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>"Miguel Oliveira &amp; Paulo HS"</Authors>
+    <Company>$"MiguelSoft"</Company>
+    <Description>Compare a string with another string and get the result in percent</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="StringComparator.ico" />
+  </ItemGroup>
+
+</Project>
